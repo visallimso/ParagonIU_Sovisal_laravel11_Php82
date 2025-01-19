@@ -1,0 +1,8 @@
+name: sample-php
+services:
+  - environment_slug: php
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: visallimso/ParagonIU_Sovisal_laravel11_Php82
+    name: sample-php
